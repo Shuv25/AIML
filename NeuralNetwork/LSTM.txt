@@ -1,0 +1,66 @@
+							LSTM
+
+Sigmoid function
+
+sigmoid(z)=1/1+e^-y ,where y=mx+b ,e=Eular's Number ~ 2.71828
+
+It convert the input into 0 to 1 range
+
+Sigmoid is activation function
+
+#Sequantial means stack of layers in neural network,Dense means all neurons of one layer is connected with every other neurons in second layer
+model=keras.Sequential([
+    keras.layers.Dense(10,input_shape=(784,),activation='sigmoid')#here 10 is nuerons in output layer and 784 is neurons in input layer
+])
+
+model.compile(
+    optimizer='adam',#it allow us to train efficiently
+    loss='sparse_categorical_crossentropy',
+    metrics=['accuracy']
+)
+
+model.fit(x_train_trattend,y_train,epochs=5)#epochs is no of itretion
+
+
+Activation Functions
+
+tanh(x)=e^z-e^-z/e^z+e^-z
+
+it converts the input into -1 to 1 range
+
+tanh slightly better than sigmoid
+
+tanh and sigmoid function has a problrem vanishing gredient which is, when the calculated derivative is close to zero it makes the learning process slow 
+
+To overcome this there is a function called ReLU 
+
+ReLU(z)=max(0,X)
+
+If your value is less than 0 then is 0, if it's more than 0 then the output is same as that value
+
+Fore hidden layer ReLU is most populary used function becasuse it is a light weight function, it is computationaly very effective  
+
+It also has vanishing gredient problem and to overcome this there is another function called Leaky ReLU.
+
+Leaky ReLU(z)=max(0.1X,X)
+
+it's try to  reduce the value close to zero.
+
+
+Loss  or Cost Function
+
+Having mean squared error is helpful in reducing the gredient decent to convert in a better way.
+
+
+Individual errors are called loss and cumalative errors that is mean errors are called cost
+
+1 ephochs means gone through all the items of train data 1 time
+
+
+For logistic reg we use log loss or binary crossentropy
+
+
+
+ 
+
+

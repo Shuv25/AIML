@@ -1,0 +1,42 @@
+Data
+Text Image Video Audio
+
+Data in the real world is dirty
+
+Incomplete
+Noisy
+Inconsistent
+Duplicate
+
+Data Quality Elements
+
+Accuracy
+Completeness
+Consistency
+Believability
+Interpretability
+
+Major steps in Data Preprocessing
+
+Data Cleaning
+Data Integration
+Data Reduction
+Data Transformation
+Data Discretization
+
+Data Cleaning means fill in missing values, smooth out noise while identifying outliers, and correct inconsistencies in the data.
+
+Data Integration is a technique to merges data from multiple sources into a coherent data store, such as a data warehouse.
+
+Data Reduction is a technique use to reduce the data size by aggregating, eliminating redundant features, or clustering, for instance.
+
+Data Transformation means data are transformed or consolidated into forms appropriate for ML modeltraining, such as normalization, may be applied where data are scaled to fall within a smaller range like 0.0 to 1.0.
+
+Data Discretization technique transforms numeric data by mapping values to interval or concept labels.It can be used to reduce the number of values for a given continuous attribute by dividing the range of the attribute into intervals.
+Discretization techniques include -
+Binning
+Histogram analysis
+Cluster analysis
+Decision-tree analysis
+Correlation analysis
+

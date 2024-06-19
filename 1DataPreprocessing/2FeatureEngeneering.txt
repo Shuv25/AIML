@@ -1,0 +1,8 @@
+Feature is an attribute or property shared by all of the independent units on which analysis or prediction is to be done.
+
+Feature Engineering is the process to create feature/extract the feature from existing features by domain knowledge to increase the performance of Machine Learning Model.
+
+Why is Feature Engineering Important?
+Quality data always help to improve the accuracy and performance of Machine Learning model.
+Machine Learning algorithm follow the rule (learn like Kids)
+

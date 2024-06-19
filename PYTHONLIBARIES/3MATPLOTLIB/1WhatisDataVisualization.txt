@@ -1,0 +1,32 @@
+What is Data Visualization
+
+Data visualization is the graphical representation of information and data. Visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data.
+
+Type of Data Visualization in Python
+Plotting Libraries:
+Matplotlib: low level, provides lots of freedom
+Pandas Visualization: easy to use interface, built on Matplotlib
+Seaborn: high-level interface, great default styles
+ggplot: based on R's ggplot2, uses Grammar of Graphics
+Plotly: can create interactive plots
+
+What is Matplotlib ?
+
+Matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy.
+Matplotlib is a python library used for Data Visualization.
+Matplotlib is 2D and 3D plotting python library.
+It was introduced by john hunter in the year 2002.
+
+Matplotlib
+
+Linear Plot
+Scatter Plot
+Bar Plot
+Stem Plot
+step Plot
+Hist Plot
+Box Plot
+Pie Plot
+Fill_Between Plot
+Graphs
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emotion Analysis Result</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Emotion Analysis Result</h1>
+    <p>Emotions detected:</p>
+    <ul>
+      {% for emotion in emotions %}
+      <li>{{ emotion }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
